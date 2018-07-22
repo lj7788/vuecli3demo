@@ -13,6 +13,9 @@
       type="date"
       :placeholder="$t('date.placeholder')">
     </el-date-picker>
+    <br/>
+    {{$t("test")}}<br/>
+    {{$t("test2")}}
   </div>
 </template>
 

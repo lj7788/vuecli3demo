@@ -5,13 +5,16 @@
 </template>
 
 <script>
+
 export default {
     methods:{
         changeLang(){
+            debugger
            var lng=this.$i18n.locale
            lng=lng=="en"?"cn":"en"
            this.$i18n.locale=lng
            window.localStorage.setItem('language', lng)
+           
         }
     }
 }

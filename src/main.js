@@ -10,6 +10,9 @@ Vue.use(Element)
 Vue.use(VueI18n)
 Vue.config.productionTip = false
 
+import axios from 'axios'
+Vue.prototype.$ajax = axios
+
 import i18n from './lang/i18n'
 
 
